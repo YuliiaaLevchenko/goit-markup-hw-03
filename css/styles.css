@@ -1,3 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+ul,ol {
+    margin: 0;
+    padding-left: 0;
+}
+img {display: block;}
+
+.container {
+        max-width: 1440
+        padding-left:  ;
+        padding-right: ;
+        margin-left:  
+        margin-right: 
+                }
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
@@ -16,6 +51,8 @@ a { text-decoration: none;}
     letter-spacing: 0.03em;
     font-style: normal;
     text-transform: uppercase;
+
+   
 }
 .logo-text-nav {
     color: #2E2F42;
@@ -64,8 +101,14 @@ letter-spacing: 0.32px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
-letter-spacing: 1.12px;
-   } 
+letter-spacing: 1.12px;}
+
+.hero-section-menu {
+    height: 600;
+    margin-top: 188;
+    margin-bottom: 262;
+}
+
    .hero-button {
     color: #FFF;
     background: #4D5AE5;
@@ -76,6 +119,12 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.64px;  
 cursor: pointer;
+align-items: center;
+
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 }
 .hero-button:hover,
 .hero-button:focus 
