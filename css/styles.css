@@ -48,6 +48,10 @@ img {display: block;}
     display: flex;
     gap: 40px;
 }
+.header-menu-list-adress {
+    display: flex;
+    gap: 40px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
