@@ -21,7 +21,7 @@ img {display: block;}
 
 .container {
         width: 1158px;
-        padding: 0 15px 0 15px;
+        padding: 0 15px;
         margin: 0 auto;
         flex-shrink: 0;
                 }
@@ -33,6 +33,7 @@ img {display: block;}
     flex-shrink: 0;
     gap: 40px;
     padding: 24px 0;
+    padding: 0 15px;
 }
 .header-container {
     border-bottom: 1px solid #e7e9fc; 
@@ -42,6 +43,7 @@ img {display: block;}
 .container .header-menu {
     padding: 0 15px;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
@@ -78,6 +80,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.32px;
+padding: 24px 0;
     }
     .nav-menu:focus,
     .nav-menu:hover {
@@ -150,13 +153,15 @@ border: none;
 }
 .visually-hidden {
     position: absolute;
-    overflow: hidden;
+    white-space: nowrap;
     clip: rect(0 0 0 0);
+    clip-path: inset(100%);
     width: 1px;
     height: 1px;
     margin: -1px;
     padding: 0;
     border: 0;
+    overflow: hidden;
 }
 .our-list {
    display: flex;
