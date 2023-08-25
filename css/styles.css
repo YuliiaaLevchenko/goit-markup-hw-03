@@ -50,7 +50,7 @@ img {display: block;}
 }
 .header-menu-list-adress {
     display: flex;
-    gap: 40px;
+    
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -111,6 +111,12 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 display: flex;
 gap: 40px;
+}
+.adress-first {
+    margin-right: 40px;
+}
+.adress-second {
+    margin-right: 0;
 }
 .adress-menu:hover,
 .adress-menu:focus
