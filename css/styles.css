@@ -39,7 +39,9 @@ img {display: block;}
     padding: 24px 0;
     gap: 40px;
 }
-
+.container .header-menu {
+    padding: 0 15px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
@@ -61,6 +63,7 @@ a { text-decoration: none;}
 }
 .logotype {
     margin-right: 76px;
+    padding: 24px 0; 
 }
 .logo-text-nav {
     color: #2E2F42;
@@ -114,7 +117,7 @@ font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 1.12px;
 max-width: 496px;
-
+text-align: center;
 }
    .hero-button {
     color: #FFF;
