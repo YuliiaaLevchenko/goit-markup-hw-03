@@ -95,6 +95,8 @@ display: block;
     .adress-text {
         font-style: normal;
         margin-left: auto;
+        display: flex;
+        gap: 40px;
     }
 .adress-menu {
     color: #434455;
